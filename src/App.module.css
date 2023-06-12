@@ -98,7 +98,7 @@ input:hover {
 }
 
 .actions > a {
-  justify-self: flex-end;
+  align-self: flex-end;
   font-size: 1.35rem;
   color: #0262b0e1;
   text-decoration: none;
