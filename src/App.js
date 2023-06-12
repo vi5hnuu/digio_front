@@ -36,12 +36,12 @@ function App() {
           </div>
           <form>
             <div className={styles['form_control']}>
-              <label>Email address or Mobile</label>
-              <input type='text' placeholder='Email address or Mobile' />
+              <label htmlFor='emal_mobile'>Email address or Mobile</label>
+              <input id='emal_mobile' name='email_mobile' type='text' placeholder='Email address or Mobile' />
             </div>
             <div className={styles['form_control']}>
-              <label>Password</label>
-              <input type='text' placeholder='Password' />
+              <label htmlFor='passsword'>Password</label>
+              <input id='password' name='password' type='text' placeholder='Password' />
             </div>
             <div className={styles.actions}>
               <a href='#'>Forgot password?</a>
@@ -53,9 +53,10 @@ function App() {
           </p>
         </div>
       </section>
-      <section style={{ backgroundColor: '#0f0' }} className={styles.aside}>
+      <section className={styles.aside}>
         <ProductDetail product={cstate.products[cstate.activeIndex]} />
         <div className={styles['crousel-indicator']}>
+          {/* can be a seperate component */}
           <div
             onClick={() => { dispatch(actions.to({ idx: 0 })) }}
             className={`${styles.dot} ${cstate.activeIndex === 0 ? styles.active : ''}`}></div>
