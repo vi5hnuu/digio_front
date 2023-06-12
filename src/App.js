@@ -55,6 +55,8 @@ function App() {
       </section>
       <section className={styles.aside}>
         <ProductDetail product={cstate.products[cstate.activeIndex]} />
+
+
         <div className={styles['crousel-indicator']}>
           {/* can be a seperate component */}
           <div

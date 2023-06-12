@@ -11,6 +11,7 @@ const products = [
     "title": 'Leverage deep tech & digitalize KYC with DigiKYC',
     "icon": kyc,
     "status": "Available now",
+    "learnMore": "https://www.digio.in/#/digi-kyc",
     "features": [
       { id: "f1", title: "1ID OCR & Face match, Video KYC V-CIP, Digilocker, Aadhaar" },
       { id: "f2", title: "1Drag & Drop to create eKYC workflows as per SEBI/RBI/IRDA" },
@@ -23,6 +24,7 @@ const products = [
     "title": 'Move from wet ink to digital signatures with DigiSign',
     "icon": sign,
     "status": "Market Leader",
+    "learnMore": "https://www.digio.in/#/digi-sign",
     "features": [
       { id: "f1", title: "Digital signing with workflows & Automation" },
       { id: "f2", title: "Aadhaar eSign, Electronic/Virtual Sign, DSC, Bulk signing" },
@@ -34,6 +36,7 @@ const products = [
     "title": 'Simplify recurring payment collections with DigiCollect',
     "icon": collect,
     "status": "Market Leader",
+    "learnMore": "https://www.digio.in/#/digi-collect",
     "features": [
       { id: "f1", title: "Digitalize, automate NACH mandate registration & Debits" },
       { id: "f2", title: "End-to-end Solution for Recurring Payments" },
@@ -45,6 +48,7 @@ const products = [
     "title": 'Automate Documentation & e-Stamping with DigiDocs',
     "icon": docs,
     "status": "Available now",
+    "learnMore": "https://www.digio.in/#/digi-docs",
     "features": [
       { id: "f1", title: "Automate and Define Business Workflows" },
       { id: "f2", title: "Smart Forms, Templates & Online PDF editor" },
